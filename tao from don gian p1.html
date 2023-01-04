@@ -3,17 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>sở thích của bạn</title>
-  <h1>sở thích của bạn</h1>
-  <p>họ và tên
-    <input type = "text" name="firstname"/></p>
-<p>email
-  <input type = "text" name="email"/></p>
-  <p>sở thích
-  <input name="hobbly" value="sport" type="checkbox"> Thể Thao
-  <input name="hobbly" value="music" type="checkbox"> âm nhạc
-  <input name="hobbly" value=""></p>
-</head
+  </head>
 <body>
+<form>
+  <h1>sở thích của bạn</h1>
+  <p>họ và tên:
+    <input type = "text" name="firstname"/></p>
+<p>email:
+  <input type = "text" name="email"/></p>
+  <table>
+    <tr>
+  <p><td>sở thích:</p></td>
+      <td><input name="hobbly" value="sport" type="checkbox"> Thể Thao</td>
+      <td><input name="hobbly" value="music" type="checkbox"> âm nhạc</td>
+      <td><input name="hobbly" value="reading books" type="checkbox"> đọc sách</td>
+    </tr>
+    <tr>
+      <td></td>
+       <th><input name="hobbly" value="susf the web" type="checkbox"> lướt wed</th>
+       <th><input name="hobbly" value="gaming" type="checkbox"> chơi game</th>
+       <th><input name="hobbly" value="film" type="checkbox" > điện ảnh</th>
+       <th><input name="hobbly" value="travel" type="checkbox"> du lịch</th>
+    </tr>
+  </table>
+  <p><input type = "submit" name="btSubmit" value="Gửi thông tin"/>
+     <input type="reset" value="nhập lại"></p>
+</form>
+
 
 </body>
 </html>
